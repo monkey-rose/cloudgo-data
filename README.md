@@ -1,4 +1,4 @@
-# xorm程序运行测试
+# xorm程序运行结果
 ## INSERT
 ### 插入2个item
 ![result](http://ww2.sinaimg.cn/large/0060lm7Tly1flzyud9n44j31bo0budir.jpg)
