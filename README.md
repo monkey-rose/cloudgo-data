@@ -20,16 +20,16 @@ orm实现：创建engine，engine调用特定函数
 orm反射过程会牺牲一部分性能，与database/sql相比，对请求服务的时间会增加。不过orm的服务还有其他优势，一些orm库，比如go语言的xorm支持session事务和回滚以及乐观锁，诸如此类的数据库操作提供了更方便的服务。
 # Answer
 ## Q:orm 是否就是实现了 dao 的自动化？
-orm（object relational mapping）对于数据库操作，不再需要自己写SQL代码，而是用go对象mapping，自动生成SQL代码，,实现了数据存取的自动化
+orm（object relational mapping）对于数据库操作，不再需要自己写SQL代码，而是用go对象mapping，自动生成SQL代码，实现了数据存取的自动化
 
 ## Q:使用 ab 测试性能
-#### orm
-post
+### orm
+#### post
 ![post](http://ww1.sinaimg.cn/large/0060lm7Tly1fm000ptmu8j31ke198wpj.jpg)
-get
+#### get
 ![get](http://ww3.sinaimg.cn/large/0060lm7Tly1fm00pfz6ocj313q162gux.jpg)
-#### database/sql
-post
+### database/sql
+#### post
 ![post](http://ww2.sinaimg.cn/large/0060lm7Tly1fm000ae0uqj31kw17jtjx.jpg)
-get
+#### get
 ![get](http://ww3.sinaimg.cn/large/0060lm7Tly1fm000hij19j316m17kqcx.jpg)
