@@ -26,7 +26,7 @@ orm（object relational mapping）对于数据库操作，不再需要自己写S
 post
 ![post](http://ww1.sinaimg.cn/large/0060lm7Tly1fm000ptmu8j31ke198wpj.jpg)
 get
-![get](http://ww3.sinaimg.cn/large/0060lm7Tly1fm000l7630j313q162gux.jpg)
+![get](http://ww3.sinaimg.cn/large/0060lm7Tly1fm00pfz6ocj313q162gux.jpg)
 #### database/sql
 post
 ![post](http://ww2.sinaimg.cn/large/0060lm7Tly1fm000ae0uqj31kw17jtjx.jpg)
