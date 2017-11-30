@@ -46,7 +46,6 @@ func postUserInfoHandler(formatter *render.Render) http.HandlerFunc {
 			} 
 			u := NewUserInfo(UserInfo{UserName: req.Form["username"][0]})
 			u.DepartName = req.Form["departname"][0]
-			//entities.UserInfoService.Save(u)
 			_, _ = engine.Insert(u)
 			formatter.JSON(w, http.StatusOK, u)
 		}
