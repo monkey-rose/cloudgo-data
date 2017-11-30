@@ -16,4 +16,12 @@
 ## 服务性能
 # Answer
 ## Q:orm 是否就是实现了 dao 的自动化？
+orm（object relational mapping）对于数据库操作，不再需要自己写SQL代码，而是用go对象mapping，自动生成SQL代码，,实现了数据存取的自动化
+
 ## Q:使用 ab 测试性能
+#### orm
+![post](http://ww1.sinaimg.cn/large/0060lm7Tly1fm000ptmu8j31ke198wpj.jpg)
+![get](http://ww3.sinaimg.cn/large/0060lm7Tly1fm000l7630j313q162gux.jpg)
+#### database/sql
+![post](http://ww2.sinaimg.cn/large/0060lm7Tly1fm000ae0uqj31kw17jtjx.jpg)
+![get](http://ww3.sinaimg.cn/large/0060lm7Tly1fm000hij19j316m17kqcx.jpg)
